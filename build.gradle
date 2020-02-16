@@ -12,7 +12,7 @@ buildscript {
 	}
 	dependencies {
 		classpath files("enigma-0.14.3.jar")
-		classpath("net.fabricmc:stitch:0.4.3.71"){
+		classpath("com.github.Chocohead:Stitch:5f34d20"){
 			exclude group: 'net.fabricmc', module: 'tiny-mappings-parser'
 		}
 		classpath "commons-io:commons-io:2.6"
