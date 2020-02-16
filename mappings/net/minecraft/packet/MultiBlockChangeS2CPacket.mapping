@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_433 net/minecraft/packet/ChunkTitlesUpdateS2CPacket
+CLASS net/minecraft/class_433 net/minecraft/packet/MultiBlockChangeS2CPacket
 	FIELD field_1236 data [B
 	METHOD <init> (II[SILnet/minecraft/class_26;)V
 		ARG 3 array

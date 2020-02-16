@@ -5,6 +5,8 @@ CLASS net/minecraft/class_87 net/minecraft/packet/Packet
 		ARG 1 data
 	METHOD method_3006 write (Ljava/io/DataOutputStream;)V
 		ARG 1 data
+	METHOD method_3007 registerToListener (Lnet/minecraft/class_847;)V
+		ARG 1 listener
 	METHOD method_3008 getFromId (I)Lnet/minecraft/class_87;
 		ARG 0 id
 	METHOD method_3009 register (IZZLjava/lang/Class;)V

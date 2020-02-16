@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_284 net/minecraft/packet/ClickContainerS2CPacket
+	FIELD field_906 item Lnet/minecraft/class_24;

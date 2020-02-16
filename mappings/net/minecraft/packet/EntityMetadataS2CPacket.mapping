@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_912 net/minecraft/packet/HeldItemChangeC2SPacket
+CLASS net/minecraft/class_912 net/minecraft/packet/EntityMetadataS2CPacket
 	FIELD field_3872 slotID I
 	METHOD <init> (ILnet/minecraft/class_357;)V
 		ARG 1 slotID

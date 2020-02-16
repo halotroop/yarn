@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_849 net/minecraft/client/network/packet/ExperienceOrbSpawnS2CPacket
+CLASS net/minecraft/class_849 net/minecraft/packet/SpawnExperienceOrbS2CPacket
 	FIELD field_3127 id I
 	FIELD field_3128 x I
 	FIELD field_3129 y I

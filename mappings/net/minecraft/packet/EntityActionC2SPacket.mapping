@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_352 net/minecraft/packet/ClientCommandC2SPacket
+CLASS net/minecraft/class_352 net/minecraft/packet/EntityActionC2SPacket
 	FIELD field_1076 entityId I
 	FIELD field_1077 mode I
 	METHOD <init> (Lnet/minecraft/class_37;I)V
