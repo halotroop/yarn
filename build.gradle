@@ -259,21 +259,13 @@ task invertIntermediary(dependsOn: downloadIntermediary, type: FileOutput) {
 	group = buildMappingGroup
 	def v1Input = downloadIntermediary.dest
 
-	output = new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-inverted.tiny")
+	output = v1Input
 	outputs.file(output)
 
 	outputs.upToDateWhen { false }
 
 	doLast {
 		logger.lifecycle(":building inverted intermediary")
-
-		String[] v1Args = [
-				v1Input.getAbsolutePath(),
-				output.getAbsolutePath(),
-				"intermediary", "official"
-		]
-
-		new CommandReorderTiny().run(v1Args)
 	}
 }
 
