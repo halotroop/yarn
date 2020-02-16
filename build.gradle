@@ -322,7 +322,7 @@ task yarn(dependsOn: setupYarn) {
 		) {
 			jvmarg(value: "-Xmx2048m")
 			arg(value: '-jar')
-			arg(value: intermediaryJar.getAbsolutePath())
+			arg(value: mergedFile.getAbsolutePath())
 			arg(value: '-mappings')
 			arg(value: mappingsDir.getAbsolutePath())
 			arg(value: '-profile')
